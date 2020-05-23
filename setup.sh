@@ -35,6 +35,7 @@ cd ..
 sudo python3 setup.py install
 
 # install face_recognition
+sudo pip3 install -U pip
 sudo pip3 install face_recognition
 cd ~
 echo -e 'Congratulations! All Set.'

@@ -27,6 +27,7 @@ sudo apt-get install -y build-essential \
 cd /usr/local/src 
 sudo wget https://objectstorage.ca-toronto-1.oraclecloud.com/n/yzpqsgba6ssd/b/bucket-20200425-1645-softwares/o/dlib-19.18.zip
 sudo unzip dlib-19.18.zip
+sudo rm -rf dlib-19.18.zip
 cd dlib-19.18/
 sudo mkdir build
 cd build

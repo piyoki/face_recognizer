@@ -1,7 +1,6 @@
 import face_recognition
 import cv2
 import numpy as np
-import time
 
 donFace = face_recognition.load_image_file('./images/known/Donald Trump.jpg')
 donEncode = face_recognition.face_encodings(donFace)[0]  # return an array
@@ -14,16 +13,16 @@ Names = ['Donald Trump','Nancy Pelosi']
 
 font = cv2.FONT_HERSHEY_SIMPLEX
 testImage = face_recognition.load_image_file('./images/unknown/u11.jpg')
-blk = np.zeros(testImage.shape, np.uint8)
 facePosition = face_recognition.face_locations(testImage)
 allEncodings = face_recognition.face_encodings(testImage,facePosition)
 
 testImage = cv2.cvtColor(testImage,cv2.COLOR_RGB2BGR)
-fps_count = 0
+blk = np.zeros(testImage.shape, np.uint8)
 
 timer=cv2.getTickCount()
 for (top,right,bottom,left), face_encoding in zip(facePosition, allEncodings):
     name = 'Unknown Person'
+    # find the matches
     matches = face_recognition.compare_faces(Encodings,face_encoding)
     if True in matches:
         first_match_index = matches.index(True)

@@ -13,7 +13,7 @@ Encodings = [donEncode,nancyEncode]
 Names = ['Donald Trump','Nancy Pelosi']
 
 font = cv2.FONT_HERSHEY_SIMPLEX
-testImage = face_recognition.load_image_file('./demoImages/unknown/u11.jpg')
+testImage = face_recognition.load_image_file('./images/unknown/u11.jpg')
 blk = np.zeros(testImage.shape, np.uint8)
 facePosition = face_recognition.face_locations(testImage)
 allEncodings = face_recognition.face_encodings(testImage,facePosition)

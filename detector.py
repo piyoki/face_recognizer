@@ -3,10 +3,10 @@ import cv2
 import numpy as np
 import time
 
-donFace = face_recognition.load_image_file('./demoImages/known/Donald Trump.jpg')
+donFace = face_recognition.load_image_file('./images/known/Donald Trump.jpg')
 donEncode = face_recognition.face_encodings(donFace)[0]  # return an array
 
-nancyFace = face_recognition.load_image_file('./demoImages/known/Nancy Pelosi.jpg')
+nancyFace = face_recognition.load_image_file('./images/known/Nancy Pelosi.jpg')
 nancyEncode = face_recognition.face_encodings(nancyFace)[0]  # return an array
 
 Encodings = [donEncode,nancyEncode]

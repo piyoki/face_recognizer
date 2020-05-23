@@ -4,7 +4,7 @@ import numpy as np
 
 font = cv2.FONT_HERSHEY_SIMPLEX
 
-image = face_recognition.load_image_file('./demoImages/unknown/u3.jpg')
+image = face_recognition.load_image_file('./images/unknown/u3.jpg')
 face_locations = face_recognition.face_locations(image)  # find faces
 print(face_locations)
 image = cv2.cvtColor(image,cv2.COLOR_RGB2BGR)

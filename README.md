@@ -28,6 +28,17 @@ Demo
 Prerequisite
 ------------
 
+##### Dependencies
+
+The Face Detection API depends on the following libraries:
+
+- Dlib
+- Face_recognition
+- Pickle
+- OpenCV
+
+For detailed steps to install Dlib and Face_recognition module, follow the Dlib installation instructions in the [Setup](#setup) section.
+
 <a name="prerequisite"></a>
 
 Setup

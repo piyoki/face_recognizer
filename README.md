@@ -61,7 +61,7 @@ $ ./setup.sh
 How To Use
 ----------
 
-##### Train the custom dataset
+#### Train the custom dataset
 
 Notes: you may customize the dataset inside /images based on your own need. To do so, you need to correctly name the image file for each image inside /images.
 
@@ -69,19 +69,19 @@ Notes: you may customize the dataset inside /images based on your own need. To d
 $ python3 training.py
 ```
 
-##### Recognize unknown faces
+#### Recognize unknown faces
 
 ```shell script
 $ python3 recognizer.py
 ```
 
-##### Run the detector to identify faces of an input image
+#### Run the detector to identify faces of an input image
 
 ```shell script
 $ python3 detector.py
 ```
 
-##### Run the detector in real-time to identify faces of an input stream
+#### Run the detector in real-time to identify faces of an input stream
 
 Notes: the input sources are not limited to Camera stream, but any form of MJPEG stream such as Video, RTSP, and HTTP Stream
 

@@ -6,9 +6,11 @@
 
 *** Update Time: 2020/05/19
 
-This repo aims to give you clear instructions on how to install packages in AArch64(ARM) Platform, especially in Jetson family. All the packages have been tested on Jetson AGX Xavier and Jetson Nano.
+*** Contact: kevinyu211@yahoo.com
 
-*** Notes: the instructions below are for manual installation. For auto installation, you may find the installation script [HERE](https://github.com/yqlbu/jetson-install)
+This repo demonstrates how to use Dlib, a powerful Object Detection library, to detect and identify faces in real-time. Dlib is able to compile with CUDA, which means, the detector can run with GPU on the Jetson. All the demos below are tested on my Jetson AGX Xavier DevKit, it should also work on other Jetson Platforms such as the Jetson Nano and the Jetson TX2.
+
+*** Notes: You may find more detailed description of the project [HERE](https://hikariai.net)
 
 Table of Contents
 -----------------
@@ -44,22 +46,32 @@ $ ./setup.sh
 How To Use
 ----------
 
+##### Train the custom dataset
+
+Notes: you may customize the dataset inside /images based on your own need. To do so, you need to correctly name the image file for each image inside /images.
+
 ```shell script
 $ python3 training.py
 ```
+
+##### Recognize unknown faces
 
 ```shell script
 $ python3 recognizer.py
 ```
 
+##### Run the detector to identify faces of an input image
+
 ```shell script
 $ python3 detector.py
 ```
+
+##### Run the detector in real-time to identify faces of an input stream
+
+Notes: the input sources are not limited to Camera stream, but any form of MJPEG stream such as Video, RTSP, and HTTP Stream
 
 ```shell script
 $ python3 live-demo.py
 ```
 
 <a name="how-to-use"></a>
-
-

@@ -43,7 +43,6 @@ out = cv2.addWeighted(testImage, 1, blk, 0.4, 1)
 cv2.putText(out, 'Total: {}'.format(str(count)), (11, 25), font, 0.5, (32, 32, 32), 4, cv2.LINE_AA)
 cv2.putText(out, 'Total: {}'.format(str(count)), (10, 25), font, 0.5, (240, 240, 240), 1, cv2.LINE_AA)
 cv2.imshow('Face Detector', out)
-cv2.moveWindow('Face Detector', 0, 0)
 if cv2.waitKey(0) == ord('q'):
     cv2.destroyAllWindows()
 

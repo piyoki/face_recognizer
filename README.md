@@ -28,7 +28,7 @@ Demo
 Prerequisite
 ------------
 
-##### Dependencies
+#### Dependencies
 
 The Face Detection API depends on the following libraries:
 

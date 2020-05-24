@@ -12,7 +12,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 scale = 0.5
 
 # reconizer
-testImage = face_recognition.load_image_file('./images/unknown/u9.jpg')
+testImage = face_recognition.load_image_file('./images/unknown/u11.jpg')
 testImage = cv2.resize(testImage, (0, 0), fx=scale, fy=scale)
 facePositions = face_recognition.face_locations(testImage)
 allEncodings = face_recognition.face_encodings(testImage,facePositions)
@@ -29,12 +29,12 @@ for (top,right,bottom,left), face_encoding in zip(facePositions,allEncodings):
         color = (0,255,0)
         name = Names[first_match_index]
         people.append(name)
-        count += 1
+
     else:
         color = (0,0,255)
-
+    count += 1
     cv2.rectangle(testImage, (right, top), (left, bottom), color, 2)
-    cv2.putText(testImage, name, (left, top - 6), font, 0.75, (255, 255, 255), 2)
+    cv2.putText(testImage, name, (left, top - 6), font, 0.5, (255, 255, 255), 2)
     cv2.rectangle(blk, (right, top), (left, bottom), color, cv2.FILLED)
 
 print('[INFO] {} People Detected. Recognized people: {}'.format(count,people))

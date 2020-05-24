@@ -29,12 +29,6 @@ Demo
   <img src="https://media.giphy.com/media/SuIyc6hmQXsKondhRo/giphy.gif" | width="1080">
 </p>
 
----
-
-#### Recognizer
-
-
-
 <a name="demo"></a>
 
 Prerequisite

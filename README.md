@@ -25,7 +25,9 @@ Demo
 
 #### Live-Demo
 
-![](demo/live-demo.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/SuIyc6hmQXsKondhRo/giphy.gif">
+</p>
 
 <a name="demo"></a>
 

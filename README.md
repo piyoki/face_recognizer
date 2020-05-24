@@ -25,7 +25,7 @@ Demo
 
 #### Live-Demo
 
-![](demo/live-demo.gif)
+<iframe src="https://giphy.com/embed/SuIyc6hmQXsKondhRo" width="480" height="352" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/face-recognition-SuIyc6hmQXsKondhRo">via GIPHY</a></p>
 
 <a name="demo"></a>
 

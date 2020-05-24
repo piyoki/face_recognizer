@@ -25,7 +25,7 @@ Demo
 
 #### Live-Demo
 
-![](demo/live.gif)
+![](demo/live-demo.gif)
 
 <a name="demo"></a>
 

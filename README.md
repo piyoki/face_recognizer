@@ -26,7 +26,7 @@ Demo
 #### Live-Demo
 
 <p align="center">
-  <img src="https://media.giphy.com/media/SuIyc6hmQXsKondhRo/giphy.gif" | width="1280">
+  <img src="https://media.giphy.com/media/SuIyc6hmQXsKondhRo/giphy.gif" | width="640" height="480">
 </p>
 
 <a name="demo"></a>

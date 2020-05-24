@@ -4,7 +4,7 @@
 
 *** Author: Kevin Yu
 
-*** Update Time: 2020/05/19
+*** Update Time: 2020/05/24
 
 *** Contact: kevinyu211@yahoo.com
 
@@ -22,6 +22,10 @@ Table of Contents
 
 Demo
 ----
+
+#### Live-Demo
+
+![](demo/live-demo.gif)
 
 <a name="demo"></a>
 

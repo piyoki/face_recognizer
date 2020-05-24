@@ -37,7 +37,9 @@ The Face Detection API depends on the following libraries:
 - Pickle
 - OpenCV
 
-For detailed steps to install Dlib and Face_recognition module, follow the Dlib installation instructions in the [Setup](#setup) section.
+*** OpenCV and Pickle are pre-installed with JetPack, so do not need to reinstalled.
+
+*** For detailed steps to install Dlib and Face_recognition module, follow the Dlib installation instructions in the [Setup](#setup) section.
 
 <a name="prerequisite"></a>
 

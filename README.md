@@ -96,3 +96,8 @@ $ python3 live-demo.py
 ```
 
 <a name="how-to-use"></a>
+
+Reference
+---------
+
+Inspired by Paul McWhorter [[source]](http://toptechboy.com/jetson-nano/ai-on-the-jetson-nano-lesson-40-training-facial-recognition-models-in-opencv/)
